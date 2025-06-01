@@ -3,9 +3,7 @@ package Selenium;
 	
 		import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-		import org.openqa.selenium.JavascriptExecutor;
-		import org.openqa.selenium.WebDriver;
-		import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 		public class AutomaticFormFillup {
@@ -16,6 +14,8 @@ import org.openqa.selenium.support.ui.Select;
 		        ChromeDriver browserObject = new ChromeDriver();
 		        //calling get method to pass the website link
 		        browserObject.get("https://training.qaonlinetraining.com/testPage.php");
+		        
+		        browserObject.manage().window().maximize();
 		        
 		        browserObject.findElement(By.name("name")).sendKeys("Infotek");
 		        
