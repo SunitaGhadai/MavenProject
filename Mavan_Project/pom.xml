@@ -46,10 +46,6 @@
     <scope>test</scope>
 </dependency>
 
-  	<dependency>
-  		<groupId>cucumberProject</groupId>
-  		<artifactId>cucumberProject</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	
   </dependencies>
 </project>
